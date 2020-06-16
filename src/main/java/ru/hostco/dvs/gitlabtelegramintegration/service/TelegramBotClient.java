@@ -17,7 +17,8 @@ public interface TelegramBotClient {
   String getMe(@PathVariable String token);
 
   @RequestMapping(value = "bot{token}/getUpdates", method = RequestMethod.GET)
-  Response<Collection<Update>> getUpdates(@PathVariable String token);
+  Response<Collection<Update>> getUpdates(@PathVariable String token,
+      @RequestParam(required = false) Long offset);
 
   @RequestMapping(value = "bot{token}/sendMessage", method = RequestMethod.POST)
   Response<Message> sendMessage(
