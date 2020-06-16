@@ -11,6 +11,6 @@ public class Message {
   Long messageId;
   User from;
   String text;
-  LocalDate date;
+  //LocalDate date;
   Chat chat;
 }

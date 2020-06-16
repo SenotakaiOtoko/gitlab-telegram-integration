@@ -8,8 +8,13 @@ import org.springframework.stereotype.Component;
 @Component
 @ConfigurationProperties(prefix = "app")
 public class ApplicationConfiguration {
+
   /**
    * Токен для доступа к gitlab api
    */
   private String gitlabPrivateToken;
+  /**
+   * Токен для доступа к telegram-bot api
+   */
+  private String telegramBotToken;
 }

@@ -9,3 +9,4 @@ spring:
 
 app:
   gitlabPrivateToken: '_BspzQeyJBHv-PxnNs2g'
+  telegramBotToken: '1152633577:AAGB2jborgKQCeaeEBOWyu6Q1ZGxvbeSBLs'
