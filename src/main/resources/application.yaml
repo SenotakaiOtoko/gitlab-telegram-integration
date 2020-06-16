@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: gitlab-telegram-integration
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    password: myservice
+    url: jdbc:postgresql://localhost/mydatabase
+    username: myservice
+
+app:
+  gitlabPrivateToken: '_BspzQeyJBHv-PxnNs2g'
